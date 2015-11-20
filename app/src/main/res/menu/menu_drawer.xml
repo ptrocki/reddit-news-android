@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grp_sorting"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_hot"
+            android:checked="true"
+            android:icon="@drawable/ic_label_black_24dp"
+            android:title="@string/drawer_hot" />
+
+        <item
+            android:id="@+id/drawer_new"
+            android:icon="@drawable/ic_label_black_24dp"
+            android:title="@string/drawer_new" />
+
+        <item
+            android:id="@+id/drawer_rising"
+            android:icon="@drawable/ic_label_black_24dp"
+            android:title="@string/drawer_rising" />
+
+        <item
+            android:id="@+id/drawer_controversial"
+            android:icon="@drawable/ic_label_black_24dp"
+            android:title="@string/drawer_controversial" />
+
+        <item
+            android:id="@+id/drawer_top"
+            android:icon="@drawable/ic_label_black_24dp"
+            android:title="@string/drawer_top" />
+
+    </group>
+
+    <group
+        android:id="@+id/grp_user_items"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/drawer_subscribe_list"
+            android:icon="@drawable/ic_label_black_24dp"
+            android:title="@string/drawer_subscribe_list" />
+    </group>
+</menu>
